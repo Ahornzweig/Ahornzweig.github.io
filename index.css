@@ -1,5 +1,37 @@
 @charset "ISO-8859-1";
 
-pics{
-	width:100%;
+header{
+	text-align:center;
+	font-weight:bold;
+	font-size: 2em;
+	font-family:sans-sarif;
+	margin-top: 0.5em;
+}
+
+h1{
+	font-family:sans-sarif;
+	font-size: 1.5em;
+	margin-top: 3em;
+}
+
+body{
+	
+	background-color:#ededf3;
+}
+
+article{
+	width:20%;
+	background-color:#303250;
+	float: left;
+	border-radius:10%;
+}
+
+p{
+	text-align:center;
+	font-family:sans-sarif;
+	color:#f3f3f3;
+}
+
+img{
+	max-width:100%;
 }
