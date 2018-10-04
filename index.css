@@ -8,6 +8,10 @@ header{
 	margin-top: 0.5em;
 }
 
+a{
+	font-family:sans-sarif;
+	text-align:center;
+}
 h1{
 	font-family:sans-sarif;
 	font-size: 1.5em;
