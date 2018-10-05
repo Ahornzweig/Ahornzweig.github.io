@@ -33,7 +33,7 @@ namespace index{
      //I Like 4
     var learning: iLike ={
         see: "studying.gif",
-        text: "Learning new things. I know, crazie!",
+        text: "Learning new things. I know, crazy!",
     }
     
     //I Like 5, comming soon (maybe)

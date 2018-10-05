@@ -25,7 +25,7 @@ var index;
     //I Like 4
     var learning = {
         see: "studying.gif",
-        text: "Learning new things. I know, crazie!",
+        text: "Learning new things. I know, crazy!",
     };
     //I Like 5, comming soon (maybe)
     var all = [games, Robots, Physics, learning];
