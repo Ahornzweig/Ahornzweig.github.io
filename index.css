@@ -11,86 +11,85 @@ Hiermit versichere ich, dass ich diesen Code selbst geschrieben habe. Er wurde n
 
 @import url('https://fonts.googleapis.com/css?family=Charmonman');
 
-html{
-	
+html {
 	width: 70%;
 	margin: auto;
 	border: 1px solid #00b359;
 	background-color: #f2f2f2;
 }
 
-header{
+header {
 	position: sticky;
-	left:0em;
-	top:0em;
-	z-index:10;
-	text-align:center;
-	font-weight:bold;
+	left: 0em;
+	top: 0em;
+	z-index: 10;
+	text-align: center;
+	font-weight: bold;
 	font-size: 2.5em;
 	background-color: #00cc66;
 	padding: 0.2em 0em 0.8em 0em;
 	height: 50px;
 	width: 100%;
-	color:#00331a;
+	color: #00331a;
 	box-shadow: 0 8px 8px -8px black;
 }
 
-body{
-	
+body {
 	margin: 0em;
 	background-color: #b3ffb3;
 	font-family: 'Raleway', sans-serif;
 }
 
-a{
-	text-decoration:none;
-	color:black;
+a {
+	text-decoration: none;
+	color: black;
 	font-size: 1.5em;
-	color:#00331a;
-}
-h1{
-	font-size: 1.5em;
-	margin-top: 1.5em;
-	text-align:center;
-	color:#00331a;
+	color: #00331a;
 }
 
-h2{
-	color:#00331a;
+h1 {
+	font-size: 1.5em;
+	margin-top: 1.5em;
+	text-align: center;
+	color: #00331a;
+}
+
+h2 {
+	color: #00331a;
 	margin: 3em 0em 0em 0.5em;
 	position: relative;
 	left: 2em;
 	bottom: 0em;
 }
 
-article{
-	width:40%;
+article {
+	width: 40%;
 	height: 20em;
-	background-color:#f0fff0;
+	background-color: #f0fff0;
 	float: left;
-	border-radius:5%;
+	border-radius: 5%;
 	position: relative;
 	left: 5.1%;
 	bottom: 0em;
 	border: 1px solid #00b359;
 	margin: 1% 2% 1% 1%;
 	padding: 0.5em 0.5em 1.0em 0.5em;
-	font-weight:bold;
+	font-weight: bold;
 }
 
-p{
-	padding-top:1.5em;
-	text-align:center;
-	color:#009f50;
+p {
+	padding-top: 1.5em;
+	text-align: center;
+	color: #009f50;
 }
 
-img{
+img {
 	display: block;
-	max-width:100%;
+	max-width: 100%;
 	height: 15em;
-	border-radius:5%;
+	border-radius: 5%;
 	margin: auto;
-	}
+}
 
 footer {
 	clear: left;
@@ -98,11 +97,11 @@ footer {
 	width: 100%;
 }
 
-.text{
-	font-family:'Charmonman', cursive;
+.text {
+	font-family: 'Charmonman', cursive;
 }
 
-a:link{
+a:link {
 	color: black;
 	text-decoration: none;
 }
@@ -117,39 +116,33 @@ a:hover {
 	text-decoration: underline;
 }
 
-
 @media screen and (max-width: 1200px) {
-	
-	html{
-	
-	width: 100%;
-	border: none;
-	background-color: #b3ffb3;
-}
+	html {
+		width: 100%;
+		border: none;
+		background-color: #b3ffb3;
+	}
 
-@media screen and (max-width: 769px){
-	
-	html{
-	width: 100%;
-	border: none;
-	background-color: #b3ffb3;
+	/*mobile*/
+	@media screen and (max-width: 769px) {
+		html {
+			width: 100%;
+			border: none;
+			background-color: #b3ffb3;
+		}
+		article {
+			width: 80%;
+			height: 20em;
+			background-color: #f0fff0;
+			float: left;
+			border-radius: 5%;
+			position: relative;
+			left: 0%;
+			bottom: 0%;
+			border: 1px solid #00b359;
+			margin: 1% 7% 1% 7%;
+			padding: 0.5em 0.5em 1.0em 0.5em;
+			font-weight: bold;
+		}
+	}
 }
-
-article{
-	width:80%;
-	height: 20em;
-	background-color:#f0fff0;
-	float: left;
-	border-radius:5%;
-	position: relative;
-	left: 0%;
-	bottom: 0%;
-	border: 1px solid #00b359;
-	margin: 1% 7% 1% 7% ;
-	padding: 0.5em 0.5em 1.0em 0.5em;
-	font-weight:bold;
-}
-
-	
-}
-
