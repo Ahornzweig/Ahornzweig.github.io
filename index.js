@@ -10,7 +10,7 @@ var index;
     //I Like 1
     var games = {
         see: "ME3.jpg",
-        text: "Gameing. Because: 'I Took an Arrow in the Knee' ;) ",
+        text: "Gaming, because: 'I Took an Arrow in the Knee' ;) ",
     };
     //I Like 2
     var Robots = {
@@ -20,12 +20,12 @@ var index;
     //I Like 3
     var Physics = {
         see: "physics.gif",
-        text: "I allways wanted to be a physicist, but well...",
+        text: "I always wanted to be a physicist, but well...",
     };
     //I Like 4
     var learning = {
         see: "studying.gif",
-        text: "Learning new things. I know, crazy!",
+        text: "Learning new things - I know, crazy!",
     };
     //I Like 5, comming soon (maybe)
     var all = [games, Robots, Physics, learning];

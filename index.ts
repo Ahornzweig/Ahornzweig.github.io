@@ -15,7 +15,7 @@ namespace index {
     //I Like 1
     var games: iLike = {
         see: "ME3.jpg",
-        text: "Gameing. Because: 'I Took an Arrow in the Knee' ;) ",
+        text: "Gaming, because: 'I Took an Arrow in the Knee' ;) ",
     }
 
     //I Like 2
@@ -27,13 +27,13 @@ namespace index {
     //I Like 3
     var Physics: iLike = {
         see: "physics.gif",
-        text: "I allways wanted to be a physicist, but well...",
+        text: "I always wanted to be a physicist, but well...",
     }
 
     //I Like 4
     var learning: iLike = {
         see: "studying.gif",
-        text: "Learning new things. I know, crazy!",
+        text: "Learning new things - I know, crazy!",
     }
 
     //I Like 5, comming soon (maybe)
@@ -63,4 +63,14 @@ namespace index {
     }
 
     document.addEventListener('DOMContentLoaded', writeHTML);
+    
+    
+    /*function main(): void {
+
+      
+        writeHTML();
+        document.getElementById("filter1").addEventListener('click', function() {
+            ?;
+        });
+    }*/
 }
