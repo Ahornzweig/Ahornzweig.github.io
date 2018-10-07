@@ -30,7 +30,7 @@ header {
 	box-shadow: 0 8px 8px -8px black;
 }
 
-span{
+span {
 	display: block;
 	text-align: center;
 	font-weight: bold;
@@ -38,10 +38,10 @@ span{
 	color: #00331a;
 }
 
-li{
+li {
 	color: #00331a;
-	list-style:none;
-	padding-right:2em;
+	list-style: none;
+	padding-right: 2em;
 }
 
 body {
@@ -68,7 +68,7 @@ h2 {
 	color: #00331a;
 	margin: 3em 0em 0em 0.5em;
 	position: relative;
-	left: 2em;
+	left: 5.5%;
 	bottom: 0em;
 }
 
@@ -144,7 +144,6 @@ a:hover {
 .dropdown {
 	position: relative;
 	display: inline-block;
-	
 }
 
 .dropdown-content {
@@ -166,6 +165,7 @@ a:hover {
 		border: none;
 		background-color: #b3ffb3;
 	}
+}
 
 	/*mobile*/
 	@media screen and (max-width: 769px) {
@@ -188,5 +188,10 @@ a:hover {
 			padding: 0.5em 0.5em 1.0em 0.5em;
 			font-weight: bold;
 		}
+		#burger {
+			position: absolute;
+			top: 10px;
+			left: 0.5em;
+			max-height: 50px;
+		}
 	}
-}
