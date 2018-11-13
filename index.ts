@@ -6,6 +6,7 @@ Datum: 05.10.2018
 Hiermit versichere ich, dass ich diesen Code selbst geschrieben habe. Er wurde nicht kopiert und auch nicht diktiert.
 */
 namespace index {
+    document.addEventListener('DOMContentLoaded', writeHTML);
 
     interface iLike {
         see: string;
@@ -61,16 +62,4 @@ namespace index {
             i++;
         }
     }
-
-    document.addEventListener('DOMContentLoaded', writeHTML);
-    
-    
-    /*function main(): void {
-
-      
-        writeHTML();
-        document.getElementById("filter1").addEventListener('click', function() {
-            ?;
-        });
-    }*/
 }
