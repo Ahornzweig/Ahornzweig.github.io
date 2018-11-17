@@ -7,6 +7,7 @@ Hiermit versichere ich, dass ich diesen Code selbst geschrieben habe. Er wurde n
 */
 var index;
 (function (index) {
+    document.addEventListener('DOMContentLoaded', writeHTML);
     //I Like 1
     var games = {
         see: "ME3.jpg",
@@ -43,6 +44,5 @@ var index;
             i++;
         }
     }
-    document.addEventListener('DOMContentLoaded', writeHTML);
 })(index || (index = {}));
 //# sourceMappingURL=index.js.map
